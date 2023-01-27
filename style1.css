@@ -1,0 +1,102 @@
+*{
+    padding: 0px;
+    margin: 10px;
+    box-sizing: border-box;
+   
+}
+
+nav{
+    position:absolute;
+    left:1600px
+}
+
+.enlaces{
+    
+    text-decoration: none;
+    box-shadow: 5px 5px 0px 0px rgb(114, 111, 111);
+    border:solid 1px rgb(27, 23, 23);
+    background-color: blue;
+    color:rgb(213, 230, 230);
+    margin-left: 10px;
+    text-align: center;
+    font-size: 25px; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-seri
+}
+.titulo{
+font-size: 50px;
+position:absolute;
+top:-25px;
+font-style: italic;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.foto{
+    display:inline-block;
+    
+}
+.fotonav{
+    display:block;
+    width: 100% ;
+   
+
+}
+  h2{
+    border:solid 1px black;
+    display:block;
+    text-align: center;
+    font-weight:bold;
+    font-size: 40px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+ 
+
+
+    
+
+}
+
+h3{
+    font-weight:bold;
+    font-size: 40px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+p{font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.link{
+
+    text-decoration: none;
+    border:solid 1px black;
+    margin-left: 10px;
+    background-color:green;
+    color:rgb(31, 212, 212);
+    box-shadow: 5px 5px 0px 0px rgb(114, 111, 111);
+    text-align: center;
+    font-size: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-seri
+}
+.logo {
+
+    width: 250px;
+    position: relative;
+
+}
+.articulos{
+    position:absolute;
+    left:700px;
+    top:1000px;
+   
+    
+
+
+}
+.articulos p{
+    font-size: 30px;
+}
+.articul{
+   
+        position:absolute;
+        left:300px;
+        top:1000px;
+       
+
+}
