@@ -51,3 +51,20 @@
     display:flex;
     list-style-position: inside;
 }
+ dt{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+
+.tituloli{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.container-contenido .otralist{
+    list-style: lower-alpha;
+    
+}
+.list1{
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
