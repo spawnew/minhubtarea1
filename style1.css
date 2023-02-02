@@ -133,3 +133,45 @@ p{font-size: 20px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-seri;
 }
 
+.T{
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.tablas .tabla {
+    display: flex;
+   
+justify-content: center; }
+.footer{
+display:flex;
+justify-content: space-between;
+}
+.texto1{
+    font-size: 18px;
+    font-style:oblique;
+}
+.texto2{
+    font-size: 18px;
+    font-style:oblique;
+    font-family:'Times New Roman', Times, serif;
+}
+.container-texto b {
+    font-size:15px;
+   
+
+
+}
+.container-texto p {
+    font-size:15px;
+   
+
+
+}
+.container-fotos .logo1 {
+    height: 215px;
+    width: 200px;
+    border-radius: 10px;
+    box-sizing:border-box;
+    border-style: solid;
+   background-color: aliceblue;
+
+}
