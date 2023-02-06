@@ -1,3 +1,31 @@
 .formulario{
     display:flex;
 }
+.container-formulario{
+    display:flex;
+   justify-content: space-around;
+   
+  
+
+}
+.container-formulario .formulario2 {
+    display: flex;
+    flex-direction: column;
+}
+.container-formulario .formulario2 .formu {
+    display: flex;
+   
+}
+.container-formulario .formulario3 {
+    display: flex;
+    flex-direction: column;
+  
+  
+}
+.container-formulario .formulario3 . formu {
+    display: flex;
+    flex-direction: column;
+  
+  
+}
+
