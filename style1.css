@@ -1,0 +1,286 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+   
+}
+.container_encabezado{
+    width: 100%;
+   
+  
+   
+}
+.container_encabezado  nav{
+    display: flex;
+    flex-direction:row;
+    justify-content: end;
+  
+}
+
+.container_encabezado .enlaces{
+    border-radius: 10px;
+    text-decoration: none;
+    box-shadow: 5px 5px 0px 0px rgb(114, 111, 111);
+    border:solid 1px rgb(27, 23, 23);
+    background-color: blue;
+    color:rgb(213, 230, 230);
+    margin-left: 10px;
+    text-align: center;
+    font-size: 25px; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-seri;
+}
+.container_encabezado .titulo h1{
+
+    font-size: 40px;
+display: flex;
+justify-content: center;
+font-style: italic;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container_encabezado .container_foto .fotonav img{
+    width: 100%;
+    height:600px;
+    border-radius: 15px;
+
+    
+
+}
+.containertitulo2{
+    border:solid 1px black;
+    display:flex;
+    text-align: center;
+    font-weight:bold;
+    font-size: 28px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   border-radius: 10px;
+
+}
+.containertitulo2{
+    display: flex;
+    justify-content: center;
+}
+
+h3{
+    font-weight:bold;
+    font-size: 25px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+p{font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.link{
+
+    text-decoration: none;
+    border:solid 1px black;
+    margin-left: 10px;
+    background-color:green;
+    color:rgb(31, 212, 212);
+    box-shadow: 5px 5px 0px 0px rgb(114, 111, 111);
+    text-align: center;
+    font-size: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-seri
+}
+.logo {
+
+    width: 200px;
+    border-radius: 10px;
+    box-sizing:border-box;
+    border-style: solid;
+   background-color: aliceblue;
+
+}
+.container-section .container-articulos {
+    align-items: center;
+   justify-content: center;
+   
+   
+ 
+    
+
+
+}
+.container-section .container-articulos .listo{
+
+    list-style:none;
+    justify-content: center;
+}
+
+.container-section {
+    display: flex;
+    justify-content: space-around;
+}
+.container-fotos{
+    display: flex;
+    justify-content:space-between;
+}
+.container-contacto{
+    display: flex;
+    justify-content: space-between;
+}
+.container_encabezado .enlaces{
+    border-radius: 10px;
+    text-decoration: none;
+    box-shadow: 5px 5px 0px 0px rgb(114, 111, 111);
+    border:solid 1px rgb(27, 23, 23);
+    background-color: blue;
+    color:rgb(213, 230, 230);
+    margin-left: 10px;
+    text-align: center;
+    font-size: 25px; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-seri;
+}
+
+.T{
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.tablas .tabla {
+    display: flex;
+   
+justify-content: center; }
+.footer{
+display:flex;
+justify-content: space-between;
+}
+.texto1{
+    font-size: 18px;
+    font-style:oblique;
+}
+.texto2{
+    font-size: 18px;
+    font-style:oblique;
+    font-family:'Times New Roman', Times, serif;
+}
+.container-texto b {
+    font-size:15px;
+   
+
+
+}
+.container-texto p {
+    font-size:15px;
+   
+
+
+}
+.container-fotos .logo1 {
+    height: 215px;
+    width: 200px;
+    border-radius: 10px;
+    box-sizing:border-box;
+    border-style: solid;
+   background-color: aliceblue;
+
+}
+.formulario{
+    display:flex;
+}
+.container-formulario{
+    display:flex;
+   justify-content: space-around;
+   
+  
+
+}
+.container-formulario .formulario2 {
+    display: flex;
+    flex-direction: column;
+}
+.container-formulario .formulario2 .formu {
+    display: flex;
+   
+}
+.container-formulario .formulario3 {
+    display: flex;
+    flex-direction: column;
+  
+  
+}
+.container-formulario .formulario3 .formu {
+    display: flex;
+    
+  
+  
+}
+
+*{
+   
+    box-sizing: border-box;
+    background-color: antiquewhite;
+   
+}
+.link{
+
+    text-decoration: none;
+    border:solid 1px black;
+    margin-left: 10px;
+    background-color:green;
+    color:rgb(31, 212, 212);
+    box-shadow: 5px 5px 0px 0px rgb(114, 111, 111);
+    text-align: center;
+    font-size: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-seri
+}
+
+.container_encabezado  nav{
+    display: flex;
+    flex-direction:row;
+    justify-content: end;
+  
+}
+
+.container_encabezado .enlaces{
+    border-radius: 10px;
+    text-decoration: none;
+    box-shadow: 5px 5px 0px 0px rgb(114, 111, 111);
+    border:solid 1px rgb(27, 23, 23);
+    background-color: blue;
+    color:rgb(213, 230, 230);
+    margin-left: 10px;
+    text-align: center;
+    font-size: 25px; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-seri;
+}
+
+
+
+
+.container-titulo ul{
+    display:flex;
+    flex-direction: column;
+    list-style: none;
+    align-items: center;
+    
+}
+.container-contenido {
+    display:flex;
+    list-style-position: inside;
+}
+ dt{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+
+.tituloli{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.container-contenido .otralist{
+    list-style: lower-alpha;
+    
+}
+.list1{
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.tituloregistrado{
+    text-align: center;
+}
+span{
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+}
