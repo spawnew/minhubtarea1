@@ -269,10 +269,7 @@ justify-content: space-between;
     list-style: lower-alpha;
     
 }
-.list1{
-    font-size: 17px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+
 
 .tituloregistrado{
     text-align: center;
@@ -287,4 +284,7 @@ span{
     height:17rem;
 
 
+}
+.list{
+    list-style-type: lower-alpha;
 }
