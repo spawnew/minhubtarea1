@@ -83,16 +83,37 @@ p{font-size: 20px;
     font-size: 25px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-seri
 }
-.logo {
+.containerlogo{
+    display:flex;
+    height: 250px;
 
-    width: 200px;
+    
+}
+.patologo {
+    display:flex;
+    flex-direction: column;
+    justify-content: end;
+    background-repeat: no-repeat;
+     background-image: url(./patos/design1_image2.jpg);
+    width:100%;
+    background-position: center;
+    border-style: solid;
+    
+}
+.patologo .logos  {
+display: flex;
+    width: 6rem;
+    height: 6rem;
     border-radius: 10px;
     box-sizing:border-box;
     border-style: solid;
-   background-color: aliceblue;
+    
+    
+  
+ 
+  
 
-}
-.container-section .container-articulos {
+}.container-section .container-articulos {
     align-items: center;
    justify-content: center;
    
@@ -288,3 +309,105 @@ span{
 .list{
     list-style-type: lower-alpha;
 }
+.pato1{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+   
+    justify-self:center;
+    align-content: center;
+}
+.pato{
+    width: 15rem;
+    border-style: solid;
+    justify-items: center;
+    border-radius: 10px;
+}
+.container-contacto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.articulos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+@media only screen and (min-width:320px)and (max-width:500px) {
+    
+    .container_encabezado  nav{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:column;
+          
+    }
+    .container_encabezado .enlaces{
+        font-size: 10px;
+    }
+    .container_encabezado .titulo h1{
+        font-size: 10px;
+    }
+    .patologo{
+        width: 100%;
+        height: 15rem;
+    }
+    .containertitulo2{
+        font-size: 10px;
+    }
+.container-fotos .logo1{
+    height: 80px;
+    width: 80px;
+}
+.articulos{
+    font-size: 10px;
+}
+.container-articulos .listo li p{
+    font-size: 10px;
+}
+.container-articulos .listo li h3 {
+    font-size: 10px;
+}
+.articul h3{
+    font-size: 13px;
+
+}
+.articul p{
+font-size: 10px;
+}
+.pato{
+    height:8rem;
+    width:8rem;
+}
+.articulos p{
+    font-size: 10px;
+}
+.mapas iframe {
+    display: flex;
+        flex-wrap: wrap;
+        flex-direction:column;
+        
+}
+
+.tituloregistrado{
+    font-size: 15px;
+}
+.formulario span{
+    font-size: 12px;
+}
+h3{
+    font-size: 15px;
+}
+p{
+    font-size: 10px;
+}
+.formulario2 span{
+    font-size: 12px;
+}
+.formulario3 span{
+    font-size: 12px;
+}
+}
+
+
+
+
