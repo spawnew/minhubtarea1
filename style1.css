@@ -160,6 +160,7 @@ display: flex;
 }
 .tablas .tabla {
     display: flex;
+    
    
 justify-content: center; }
 .footer{
@@ -333,6 +334,16 @@ span{
     flex-direction: column;
     justify-content: center;
 }
+.mapas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    
+}
+
+
 @media only screen and (min-width:320px)and (max-width:500px) {
     
     .container_encabezado  nav{
