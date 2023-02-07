@@ -44,46 +44,48 @@
 
     <label>
         <span>Player-Firstname:</span>
-        <input type="text" name="nombre" placeholder="coloque su nombre">
+        <input type="text" name="nombre" >
     </label>
    
     <label>
         <span>Last-name:</span>
-        <input type="text" name="apellido" placeholder="coloque su apellido">
+        <input type="text" name="apellido" >
     </label>
     </div>
     <br>
 <div class="formulario">
     <label>
         <span>Street Address:</span>
-        <input type="text" name="street-address" placeholder="coloque su direccion">
+        <input type="text" name="street-address" >
     </label>
 </div>
 <br>
 <div class="formulario">
     <label>
         <span>City:</span>
-        <input type="text" name="city" placeholder="coloque su ciudad">
+        <input type="text" name="city" >
     </label>
     <label>
         <span>Zip code:</span>
-        <input type="text" name="zip-code " placeholder="coloque su zip-code">
+        <input type="text" name="zip-code " >
     </label>
 </div>
 <br>
 <div class="formulario">
     <label>
         <span>Birth date:</span>
-        <input type="date" name="fecha" placeholder="coloque fecha">
+        <input type="date" name="fecha" >
     </label>
     <label>
         <span>Gender</span>
-        <input type="checkbox" name="gender " value="hombre" >
-        <span>Masculino</span>
-        
-        <input type="checkbox" name="gender " value="mujer" >
+        <input type="radio" name="gender " value="hombre" >
+        <span>Masculino</span></label>
+       <label >
+        <input type="radio" name="gender " value="mujer" >
         <span>Femenino</span>
-    </label>
+       </label> 
+        
+   
 </div>
 
 <br>
@@ -91,21 +93,22 @@
     
         <label>
             <span>Grade</span>
-            <input type="checkbox" name="grade " value="Pre-School" >
-            <span>Pre-School </span>Grade</span>
-            <input type="checkbox" name="grade " value="Primero" >
-            <span>1</span>st</span>
-            <input type="checkbox" name="grade " value="Segundo" >
-            <span>2 </span>st</span>
-            <input type="checkbox" name="grade " value="tercero" >
-            <span>3</span>st</span>
-            <input type="checkbox" name="grade " value="Cuarto" >
-            <span>4 </span>st</span>
-            <input type="checkbox" name="grade " value="Quinto" >
-            <span>5 </span>st</span>
-            
-        
-        </label>
+            <input type="radio" name="grade " value="Pre-School" >
+            <span>Pre-School</span>
+            </label>
+            <label>
+            <input type="radio" name="grade " value="Primero" >
+            <span>1st</span></label>
+            <input type="radio" name="grade " value="Segundo" >
+            <span>2st</span>
+        <label>
+            <input type="radio" name="grade " value="tercero" >
+            <span>3st</span></label>
+            <label><input type="radio" name="grade " value="Cuarto" >
+                <span>4 t</span> </label>
+            <label><input type="radio" name="grade " value="Quinto" >
+                <span>5st</span></label>
+   
     
 </div>
 
@@ -113,8 +116,8 @@
 
 <h3>which elementary school do you live near</h3>
 
-    <legend>Closest School</legend>
-    <label>
+    <h4>Closest School</h4>
+    
 
         <div class="container-formulario">
             <div class="formulario2">
@@ -123,31 +126,42 @@
                     <span>AJ Katzenmaier</span>
                 </div>
                 <div class="formu">
-                <input type="checkbox" name="grade " value="Primero" >
-                <span>Greenbay</span>
+                    <label>
+                       <input type="checkbox" name="grade " value="Primero" >
+                        <span>Greenbay</span>
+                    </label>
+                
                 </div>
                <div class="formu">
-                <input type="checkbox" name="grade " value="Segundo" >
-                <span>Howard A Yeager </span> </div>  
-             
+                <label >
+                    <input type="checkbox" name="grade " value="Segundo" >
+                    <span>Howard A Yeager </span>
+                </label> </div>
+                    
+              
+          
             </div>
             
             
             <div class="formulario3">
                 <div class="formu">
+                    <label>
                 <input class="checkbox" type="checkbox" name="grade " value="tercero" >
-                <span>Marjorie P  Hart</span> </div>
+                <span>Marjorie P  Hart</span> </label></div>
                 <div class="formu">
-                <input class="checkbox" checkbox type="checkbox" name="grade " value="Cuarto" >
-                <span>North Elementary</span></div>
+                    <label>
+                <input class="checkbox" type="checkbox" name="grade " value="Cuarto" >
+                <span>North Elementary</span></label></div>
                 <div class="formu">
+                    <label>  
                 <input class="checkbox" type="checkbox" name="grade " value="Quinto" >
-                <span>South Elementary</span>
+                <span>South Elementary</span></label>
                 </div>
             </div>
+        
         </div>
         
-    </label>
+
     
     
 
@@ -156,35 +170,36 @@
 
 
 <h3>What position(s) do you normally play? (check all that apply)</h3>
-    <label>
+
+   
 
         <div class="container-formulario">
             <div class="formulario2">
                 <div class="formu">
-                    <input type="checkbox" name="grade " value="Pre-School" >
+                    <input type="checkbox" name="closet-school " value="Forward" >
                     <span>Forward </span>
                 </div>
                 <div class="formu">
-                <input type="checkbox" name="grade " value="Primero" >
+                <input type="checkbox" name="closet-school  " value="Defense" >
                 <span>Defense</span>
                 </div>
                  
              </div>
     
             
-            
-            <div class="formulario3">
+             <div class="formulario3">
                 <div class="formu">
-                <input class="checkbox" type="checkbox" name="grade " value="tercero" >
-                <span>Midfield</span> </div>
+                    <label>
+                <input class="checkbox" type="checkbox" name="closet-school " value="Midfiels" >
+                <span>Midfiels</span> </label></div>
                 <div class="formu">
-                <input class="checkbox" checkbox type="checkbox" name="grade " value="Cuarto" >
-                <span>Goalkeeper</span></div>
-                
-            </div>
-        </div>
+                    <label>
+                <input class="checkbox" type="checkbox" name="closet-school" value="Golkeeper" >
+                <span>Golkeeper</span></label></div>
+                </div>
+               
 
-    </label>
+   </div>
     
     
 
@@ -194,50 +209,42 @@
 
 <h3>Uniform Size</h3>
 
-    <label>
+   
 
         <div class="container-formulario">
             <div class="formulario2">
                 <div class="formu">
-                    <input type="checkbox" name="grade " value="Pre-School" >
-                    <span>Youth Smal</span>
+                    <input type="radio" name="uniform-size" value="Yoluth Small" >
+                    <span>Yoluth Small</span>
                 </div>
                 <div class="formu">
-                <input type="checkbox" name="grade " value="Primero" >
+                <input type="radio" name="uniform-size " value="Youth Medium" >
                 <span>Youth Medium </span>
                 </div>
                <div class="formu">
-                <input type="checkbox" name="grade " value="Segundo" >
+                <input type="radio" name="uniform-size " value="Youth Large" >
                 <span>Youth Large  </span> </div>
                 <div class="formu">
-                    <input type="checkbox" name="grade " value="Segundo" >
-                    <span> Small
+                    <input type="radio" name="uniform-size " value="Small" >
+                    <span> Small</span>
              </div>
             </div>
-    
-            
-            
             <div class="formulario3">
                 <div class="formu">
-                <input class="checkbox" type="checkbox" name="grade " value="tercero" >
-                <span>Medium</span> </div>
+                    <label>
+                <input class="checkbox" type="radio" name="uniform-size" value="Medium" >
+                <span>Medium</span> </label></div>
                 <div class="formu">
-                <input class="checkbox" checkbox type="checkbox" name="grade " value="Cuarto" >
-                <span>Large</span></div>
+                    <label>
+                <input class="checkbox" type="radio" name="uniform-size " value="Large" >
+                <span>Large</span></label></div>
                 <div class="formu">
-                <input class="checkbox" type="checkbox" name="grade " value="Quinto" >
-                <span>Extra-Large</span>
+                    <label>  
+                <input class="checkbox" type="radio" name="uniform-size " value="Extra-Large" >
+                <span>Extra-Large</span></label>
                 </div>
             </div>
         </div>
-        </div>
-    </label>
-    
-    
-
- 
-
-
 
 <h3><b>Permission to Play</b></h3>
 <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated with hockey and in consideration for the “League" accepting the registrant for its hockey programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL, their employees and associated personnel and voIunteers,incIuding the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant's participation in the programand/orbeing transported to or from MDHL sponsored activities,which transportation
@@ -247,7 +254,7 @@
 
         <label>
             <span>Parent/GuardianSignature:</span>
-            <input type="text" name="nombre" placeholder="coloque su nombre">
+            <input type="text" name="nombre" >
         </label>
         </div>
 
@@ -255,10 +262,13 @@
         <div class="formulario">
         <label>
             <span>Date:</span>
-            <input type="date" name="fecha" placeholder="coloque fecha">
+            <input type="date" name="fecha" >
         </label>
     </div>
-            <input type="submit">
+    <label>
+    <input type="submit">
+</label>
+            
 
         </form>
         

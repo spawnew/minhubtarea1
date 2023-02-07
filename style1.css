@@ -344,7 +344,7 @@ span{
 }
 
 
-@media only screen and (min-width:320px)and (max-width:500px) {
+@media only screen and (min-width:320px)and (max-width:400px) {
     
     .container_encabezado  nav{
         display: flex;
@@ -419,6 +419,80 @@ p{
 }
 }
 
+@media only screen and (min-width:401px)and (max-width:600px) {
+    
+    .container_encabezado  nav{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:column;
+          
+    }
+    .container_encabezado .enlaces{
+        font-size: 12px;
+    }
+    .container_encabezado .titulo h1{
+        font-size: 15px;
+    }
+    .patologo{
+        width: 100%;
+        height: 15rem;
+    }
+    .containertitulo2{
+        font-size: 13px;
+    }
+.container-fotos .logo1{
+    height: 50px;
+    width: 50px;
+}
+.articulos{
+    font-size: 15px;
+}
+.container-articulos .listo li p{
+    font-size: 15px;
+}
+.container-articulos .listo li h3 {
+    font-size: 15px;
+}
+.articul h3{
+    font-size: 13px;
+
+}
+.articul p{
+font-size: 15px;
+}
+.pato{
+    height:9rem;
+    width:9rem;
+}
+.articulos p{
+    font-size: 15px;
+}
+.mapas iframe {
+    display: flex;
+        flex-wrap: wrap;
+        flex-direction:column;
+        
+}
+
+.tituloregistrado{
+    font-size: 20px;
+}
 
 
+.formulario span{
+    font-size: 14px;
+}
+h3{
+    font-size: 16px;
+}
+p{
+    font-size: 14px;
+}
+.formulario2 span{
+    font-size: 14px;
+}
+.formulario3 span{
+    font-size: 14px;
+}
+}
 
